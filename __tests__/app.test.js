@@ -20,7 +20,7 @@ describe('test app routes', () => {
 
   it('can CREATE a recipe', () =>{
     return request(app)
-      .post('/api/v1/recipes')
+      .post('/api/v1/recipe')
       .send({
         name: 'cookies',
         directions: [
@@ -61,7 +61,7 @@ describe('test app routes', () => {
       }
     );
     return request(app)
-      .get(`/api/v1/recipes/${recipe._id}`)
+      .get(`/api/v1/recipe/${recipe._id}`)
       .then(res => {
         expect(res.body).toEqual({
           _id: expect.any(String),
@@ -92,7 +92,7 @@ describe('test app routes', () => {
       }
     );
     return request(app)
-      .patch(`/api/v1/recipes/${recipe._id}`)
+      .patch(`/api/v1/recipe/${recipe._id}`)
       .send({ name: 'cookies' })
       .then(res => {
         expect(res.body).toEqual({
@@ -124,7 +124,7 @@ describe('test app routes', () => {
       }
     );
     return request(app)
-      .delete(`/api/v1/recipes/${recipe._id}`)
+      .delete(`/api/v1/recipe/${recipe._id}`)
       .then(res => {
         expect(res.body).toEqual({
           _id: expect.any(String),

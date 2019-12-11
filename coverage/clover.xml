@@ -1,31 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1576027264436" clover="3.2.0">
-  <project timestamp="1576027264436" name="All files">
-    <metrics statements="36" coveredstatements="33" conditionals="1" coveredconditionals="1" methods="14" coveredmethods="11" elements="51" coveredelements="45" complexity="0" loc="36" ncloc="36" packages="3" files="3" classes="3"/>
+<coverage generated="1576028704777" clover="3.2.0">
+  <project timestamp="1576028704777" name="All files">
+    <metrics statements="34" coveredstatements="31" conditionals="1" coveredconditionals="1" methods="14" coveredmethods="11" elements="49" coveredelements="43" complexity="0" loc="34" ncloc="34" packages="4" files="4" classes="4"/>
     <package name="lib">
-      <metrics statements="20" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="8"/>
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
       <file name="app.js" path="/Users/samanthasterns/alchemy/career-track-one/lab7/lib/app.js">
-        <metrics statements="20" coveredstatements="18" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="8"/>
+        <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
         <line num="1" count="1" type="stmt"/>
         <line num="2" count="1" type="stmt"/>
-        <line num="3" count="1" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="7" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
         <line num="8" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
-        <line num="13" count="1" type="stmt"/>
-        <line num="14" count="0" type="stmt"/>
-        <line num="17" count="0" type="stmt"/>
-        <line num="20" count="1" type="stmt"/>
-        <line num="21" count="1" type="stmt"/>
-        <line num="23" count="1" type="stmt"/>
-        <line num="26" count="1" type="stmt"/>
-        <line num="27" count="1" type="stmt"/>
-        <line num="29" count="1" type="stmt"/>
-        <line num="32" count="1" type="stmt"/>
-        <line num="33" count="1" type="stmt"/>
-        <line num="35" count="1" type="stmt"/>
-        <line num="38" count="1" type="stmt"/>
       </file>
     </package>
     <package name="lib.models">
@@ -36,6 +21,25 @@
         <line num="4" count="2" type="stmt"/>
         <line num="20" count="2" type="stmt"/>
         <line num="29" count="2" type="stmt"/>
+      </file>
+    </package>
+    <package name="lib.routes">
+      <metrics statements="13" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="8"/>
+      <file name="recipe.js" path="/Users/samanthasterns/alchemy/career-track-one/lab7/lib/routes/recipe.js">
+        <metrics statements="13" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="10" coveredmethods="8"/>
+        <line num="1" count="1" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="19" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="27" count="1" type="stmt"/>
+        <line num="31" count="1" type="stmt"/>
+        <line num="33" count="1" type="stmt"/>
       </file>
     </package>
     <package name="lib.utils">
